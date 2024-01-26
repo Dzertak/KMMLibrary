@@ -1,4 +1,4 @@
-package com.dzertak.kmmlibray
+package com.dzertak.kmmlibrary
 
 import platform.UIKit.UIDevice
 

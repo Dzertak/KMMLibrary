@@ -1,4 +1,4 @@
-package com.dzertak.kmmlibray
+package com.dzertak.kmmlibrary
 
 import kotlin.test.Test
 import kotlin.test.assertTrue

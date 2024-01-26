@@ -44,7 +44,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.dzertak.kmmlibray"
+    namespace = "com.dzertak.kmmlibrary"
     compileSdk = 33
     defaultConfig {
         minSdk = 26

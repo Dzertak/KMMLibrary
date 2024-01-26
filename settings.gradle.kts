@@ -18,5 +18,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "KMMLibray"
+rootProject.name = "KMMLibrary"
 include(":shared")

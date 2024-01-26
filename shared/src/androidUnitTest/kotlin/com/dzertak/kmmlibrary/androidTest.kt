@@ -1,4 +1,4 @@
-package com.dzertak.kmmlibray
+package com.dzertak.kmmlibrary
 
 import org.junit.Assert.assertTrue
 import org.junit.Test

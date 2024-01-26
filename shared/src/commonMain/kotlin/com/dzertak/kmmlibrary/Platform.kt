@@ -1,4 +1,4 @@
-package com.dzertak.kmmlibray
+package com.dzertak.kmmlibrary
 
 interface Platform {
     val name: String
