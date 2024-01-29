@@ -1,6 +1,11 @@
 [versions]
 library-group = "com.dzertak.kmmlibrary"
-library-version = "0.0.1"
+library-version = "0.0.2"
+ios-summary = "KMMLibrary"
+ios-authors = "com.dzertak"
+ios-homepage = "https://github.com/Dzertak/KMMLibrary"
+ios-deployment-target = "14.0"
+ios-basename = "shared"
 agp = "8.1.1"
 org-jetbrains-kotlin-android = "1.9.0"
 core-ktx = "1.9.0"
@@ -13,6 +18,8 @@ android = "8.1.1"
 kotlin = "1.9.21"
 kover = "0.6.1"
 ksp = "1.8.20-1.0.11"
+compileSdk = "33"
+
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-common", version.ref = "kotlin" }

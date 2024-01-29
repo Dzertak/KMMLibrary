@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'shared'
-    spec.version                  = '1.0'
-    spec.homepage                 = 'Link to the Shared Module homepage'
+    spec.version                  = '0.0.2'
+    spec.homepage                 = 'https://github.com/Dzertak/KMMLibrary'
     spec.source                   = { :http=> ''}
-    spec.authors                  = ''
+    spec.authors                  = 'com.dzertak'
     spec.license                  = ''
-    spec.summary                  = 'Some description for the Shared Module'
+    spec.summary                  = 'KMMLibrary'
     spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target = '14.1'
+    spec.ios.deployment_target = '14.0'
                 
                 
     if !Dir.exist?('build/cocoapods/framework/shared.framework') || Dir.empty?('build/cocoapods/framework/shared.framework')
