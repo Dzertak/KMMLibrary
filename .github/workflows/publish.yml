@@ -11,7 +11,7 @@ jobs:
       MYUSER: ${{ secrets.USERNAME }}
       MYPAT: ${{ secrets.PASSWORD }}
       DEVELOPER_DIR: /Applications/Xcode_14.2.app/Contents/Developer
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: Checkout
         uses: actions/checkout@v1
