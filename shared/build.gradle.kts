@@ -171,14 +171,14 @@ fun readProperties(propertiesFile: File) = Properties().apply {
 }
 
 publishing {
-    val properties = readProperties(project.rootProject.file("local.properties"))
+    //val properties = readProperties(project.rootProject.file("local.properties"))
     repositories {
         maven {
             name = "KMMLibrary"
             url = uri("https://maven.pkg.github.com/dzertak/KMMLibrary")
             credentials {
-                username = System.getenv("USERNAME") ?: properties.getProperty("GITHUB_ID")
-                password = System.getenv("PASSWORD") ?:properties.getProperty("GITHUB_PACKAGES_TOKEN")
+                username = System.getenv("USERNAME") //?: properties.getProperty("GITHUB_ID")
+                password = System.getenv("PASSWORD") //?:properties.getProperty("GITHUB_PACKAGES_TOKEN")
             }
         }
     }
