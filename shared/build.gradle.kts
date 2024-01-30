@@ -253,7 +253,7 @@ val publishPlatforms by tasks.registering {
     doLast {
         exec { commandLine = listOf("git", "add", "-A") }
         exec { commandLine = listOf("git", "commit", "-m", "iOS binary lib for version ${commonlibs.versions.library.version.get()}") }
-        exec { commandLine = listOf("git", "push", "origin", "main") }
+        exec { commandLine = listOf("git", "push", "-u", "origin", "master") }
         exec { commandLine = listOf("git", "tag", commonlibs.versions.library.version.get()) }
         exec { commandLine = listOf("git", "push", "--tags") }
         println("version ${commonlibs.versions.library.version.get()} built and published")
