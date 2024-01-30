@@ -36,7 +36,7 @@ jobs:
         run: |
             git config --global user.name "Dzertak"
             git config --global user.email "kraftchenko.io@gmail.com"
-            git checkout -b main
+            git checkout -b master
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
