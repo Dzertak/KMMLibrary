@@ -1,6 +1,6 @@
 [versions]
 library-group = "com.dzertak.kmmlibrary"
-library-version = "0.0.4"
+library-version = "0.0.5"
 ios-summary = "KMMLibrary"
 ios-authors = "com.dzertak"
 ios-homepage = "https://github.com/Dzertak/KMMLibrary"
