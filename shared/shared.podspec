@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'shared'
-    spec.version                  = '0.0.3'
+    spec.version                  = '0.0.4'
     spec.homepage                 = 'https://github.com/Dzertak/KMMLibrary'
     spec.source                   = { :http=> ''}
     spec.authors                  = 'com.dzertak'
